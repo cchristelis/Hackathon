@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+	<link rel="shortcut icon" href="img/favicon.ico"> 
+	<link rel="stylesheet" href="css/vendor/fluidbox.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="https://openlayers.org/en/v3.19.1/css/ol.css" type="text/css">
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/ol3/3.8.2/ol.min.css" type="text/css">
+	<link rel="stylesheet" href="assets/ol3/css/ol3-layerswitcher.css" />
+	
+	
+
+	
+	<title>Nokubika</title>
+
+</head>
+<body>
+
+
+	<header>
+
+		<div id="logo-container">
+			<div id="logo"><a href="/">Nokubika</a></div>
+			<div id="subtitle">an Ebola reporting web application</div>
+		</div>
+
+	</header>
+
+	<div id="content">
+
+		
+		<section class="intro">
+			<iframe title="YouTube video player" class="youtube-player" type="text/html" 
+			width="1088" height="550" src="https://www.youtube.com/embed/sRv19gkZ4E0"
+			frameborder="0" allowFullScreen></iframe>
+		</section>
+		
+		<section class="row">
+			<div class="col-full">
+				<h2>How to use Nokubika</h2>
+				<p>
+					With Nokubika you can view and report incidents of Ebola. </br></br>
+                    View </br>
+                    It just needs a click on a circle, which represents an occurrence. This gives you a pop-up window with further information. </br></br>
+                    Report</br>
+                    To report an ebola incident, you have to fill in the form and set a point with the drawing tool inside the map. 
+				</p>
+			</div>
+		</section>
+
+		<section class="row">
+			<div class="col-full">
+				<h4 style="color:#f85c37">Case Information</h4>
+						<form>
+						<input id="inpPatientsex" type="text" placeholder="Sex of patient...">
+						<input id="inpAge" type="text" placeholder="Age of Patient">
+						<input id="inId" type="text" placeholder="Identity number of Patient...">
+					    <input id="inpReportDat" type="text" placeholder="Date of diagnosis">			   		
+						<div class="col-lg-4">
+						<label for="inpMortality">Did case end in Mortality? :</label>						
+						<input id="inpMortality" type="text" placeholder="Yes/No">
+						<label for="inpTreatment">Did patient recieve treatment? :</label>
+						<input id="inpTreatment" type="text" placeholder="Yes/No">						
+						
+						</div>
+						</form>
+					<p>
+					</p>
+					
+				<h2>Location of Case </h3>
+				<div id="mapid2" style="width:80%; height:350px; margin-left:15%" ></div>
+
+				
+		</section>
+
+
+		<section class="row">
+			<div class="col">
+				<h2>Contact</h2>
+				<p>
+					This is only a prototype application
+				</p>
+			</div>
+			</div>
+		</section>
+
+
+		
+	</div>
+	<script src="assets/js/jquery.min.js"></script>
+
+	<script src="js/vendor/jquery.fluidbox.min.js"></script>
+	<script src="js/main.js"></script>
+
+
+	<script type="text/javascript"  src="assets/js/ol.js"></script>
+	<script type="text/javascript" src="assets/ol3/js/ol3-layerswitcher.js"></script>
+	<script type ="text/javascript" src="js/incidentWebMap.js"></script>
+
+</body>
+</html>
+

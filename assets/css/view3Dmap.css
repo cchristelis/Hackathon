@@ -1,0 +1,10 @@
+.dg.ac {
+	top: 160px !important;
+	right: 400px !important;
+}
+
+canvas {
+	margin-top: 30px;
+	width: 1080px !important;
+	height: auto !important;
+}
